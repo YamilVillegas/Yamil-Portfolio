@@ -45,8 +45,8 @@ h2 {
 }
 
 .navbar-dark {
-  background-color: #901cad;
-  background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a);
+  background-color: #f3c623;
+  background-image: linear-gradient(to right, #10375c, #10375c, #f3c623);
   margin-bottom: 2rem;
   min-height: 8rem;
 }

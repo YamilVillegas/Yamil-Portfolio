@@ -3,16 +3,16 @@ import { CardImg } from 'reactstrap';
 import { CardImgOverlay } from 'reactstrap';
 import { CardTitle } from 'reactstrap';
 
-const ProjectsCard = ({ projects }) => {
+const ProjectsCard = ({ project }) => {
     return (
         <Card>
             <CardImg 
                 width='100%'
-                src={projects.image}
-                alt={projects.name}
+                src={project.image}
+                alt={project.name}
             />
             <CardImgOverlay>
-                <CardTitle>{projects.name}</CardTitle>
+                <CardTitle>{project.name}</CardTitle>
             </CardImgOverlay>
         </Card>
     )

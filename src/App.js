@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import { Container, Navbar, NavbarBrand } from 'reactstrap';
-import YLogo from './app/assets/img/YLogo.png'
+import YLogo from './app/assets/img/YLogo.png';
+import ProjectsList from './features/projects/ProjectsList.js';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
                     </NavbarBrand>
                 </Container>
             </Navbar>
-            Testing 1 2 3
+            <ProjectsList/>
     </div>
   );
 }
