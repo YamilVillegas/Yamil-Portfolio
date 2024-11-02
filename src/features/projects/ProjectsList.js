@@ -4,14 +4,16 @@ import ProjectsCard from "./ProjectsCard";
 
 const ProjectsList = () => {
     return (
-        <div className="container d-flex justify-content-center">
-            <Row>
-                {PROJECTS.map((project) => (
-                    <Col xs={3} className="m-1" key={project.id}>
-                        <ProjectsCard project={project} />
-                    </Col>
-                ))}
-            </Row>
+        <div className="project-section">
+            <div className="container">
+                <Row className="justify-content-center">
+                    {PROJECTS.map((project) => (
+                        <Col xs={12} md={4} className="m-2" key={project.id}>
+                            <ProjectsCard project={project} />
+                        </Col>
+                    ))}
+                </Row>
+            </div>
         </div>
     );
 };
