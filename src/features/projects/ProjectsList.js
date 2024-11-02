@@ -4,15 +4,15 @@ import ProjectsCard from "./ProjectsCard";
 
 const ProjectsList = () => {
     return (
-        <Row className='ms-auto'>
-            {PROJECTS.map((project) => {
-                return (
-                    <Col md='5' className='m-4' key={project.id}>
+        <div className="container d-flex justify-content-center">
+            <Row>
+                {PROJECTS.map((project) => (
+                    <Col xs={3} className="m-1" key={project.id}>
                         <ProjectsCard project={project} />
                     </Col>
-                );
-            })}
-        </Row>
+                ))}
+            </Row>
+        </div>
     );
 };
 
