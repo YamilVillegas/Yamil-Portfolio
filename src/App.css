@@ -11,8 +11,12 @@ h1,h2,h3, .card-body > .card-title {
   font-size: 1.25rem;
 }
 
+h1 {
+  color: #10375c;
+}
+
 h2 {
-  color: #3046c5;
+  color: #10375c;
 }
 
 .card-img-overlay .card-title {
