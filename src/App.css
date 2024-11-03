@@ -13,10 +13,12 @@ h1,h2,h3, .card-body > .card-title {
 
 h1 {
   color: #10375c;
+  line-height: 1;
 }
 
 h2 {
   color: #10375c;
+  margin-top: -10px;
 }
 
 .card-img-overlay .card-title {
@@ -47,6 +49,20 @@ h2 {
   background-image: linear-gradient(to right, #10375c, #10375c, #f3c623);
   margin-bottom: 2rem;
   min-height: 8rem;
+}
+
+.hero-section {
+  display: flex;
+  margin-top: -40px;
+  align-items: flex-start;
+  padding: 100px; /* Adjust padding as needed */
+  background-color: #10375c; /* Background color */
+  color: white; /* Text color */
+}
+
+.name-text {
+  font-size: 5rem;
+  color: #f3c623;
 }
 
 .page-enter {
