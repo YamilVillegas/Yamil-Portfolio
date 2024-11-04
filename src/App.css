@@ -51,18 +51,76 @@ h2 {
   min-height: 8rem;
 }
 
+.name-text {
+  font-size: 5rem;
+  color: #f3c623;
+}
+
 .hero-section {
   display: flex;
   margin-top: -40px;
   align-items: flex-start;
-  padding: 100px; /* Adjust padding as needed */
-  background-color: #10375c; /* Background color */
-  color: white; /* Text color */
+  padding: 80px; /* Adjusted padding for size of background*/
+  background-color: #10375c;
+  color: white;
 }
 
-.name-text {
-  font-size: 5rem;
+.about-me-section {
+  padding: 80px;
+}
+
+.card-body {
+  background-color: #10375c;
+  border-radius: 10px;
+}
+
+.card-title{
+  color: #FFFFF0;
+}
+
+.project-section {
+  background-color: #10375c;
+  padding: 80px;
+}
+
+.projects-h1 {
   color: #f3c623;
+} 
+
+.project-card {
+  margin-bottom: 20px;
+}
+
+.contact-form-h3 {
+  color: #10375c;
+}
+
+.contact-form {
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-form input[type="textarea"] {
+  width: 100%;
+  resize: vertical;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #FFFFF0;
+  border-radius: 5px;
+  min-height: 200px; /* Increase the height for a more square shape */
+}
+
+.contact-form button {
+  margin-top: 10px;
+  background-color: #10375c;
+  color: white;
+  border-width: 2px;
+  border-color: #f3c623;
+  font-family: 'Lobster', cursive; 
+  font-size: 1.2rem;
 }
 
 .page-enter {
@@ -74,11 +132,6 @@ h2 {
   opacity: 1;
   transform: translateX(0%);
   transition: 300ms ease-out;
-}
-
-.project-section {
-  background-color: #10375c;
-  padding: 75px;
 }
 
 .page-exit {

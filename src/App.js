@@ -4,6 +4,7 @@ import ProjectsList from './features/projects/ProjectsList.js';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import HeroSection from './components/HeroSection';
+import ContactForm from './components/ContactForm.js';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroSection/>
       <AboutMe/>
       <ProjectsList/>
+      <ContactForm />
     </div>
   );
 }

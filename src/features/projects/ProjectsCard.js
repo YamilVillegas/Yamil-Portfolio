@@ -5,7 +5,7 @@ import { CardTitle } from 'reactstrap';
 
 const ProjectsCard = ({ project }) => {
     return (
-        <Card>
+        <Card className='project-card'>
             <CardImg 
                 width='100%'
                 src={project.image}
