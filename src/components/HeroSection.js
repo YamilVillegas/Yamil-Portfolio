@@ -9,7 +9,7 @@ const HeroSection = () => {
         <Row>
           <Col md={6}>
             <h1 className='name-text'>Yamil.</h1>
-            <h2>Web Designer & Frontend Developer</h2>
+            <h2 className='hero-h2'>Web Designer & Frontend Developer</h2>
             <p>Dedicated to crafting exceptional digital solutions. Offering expertise in web design and frontend development.</p>
             <p>Custom website design tailored to your brand, driving online success.</p>
             <p>Responsive web development for seamless browsing across devices.</p>
