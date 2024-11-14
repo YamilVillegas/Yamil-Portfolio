@@ -7,7 +7,7 @@ h1,h2,h3, .card-body > .card-title {
 }
 
 .card-title {
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 1.25rem;
 }
 
@@ -45,10 +45,23 @@ h2 {
 }
 
 .navbar-dark {
+  color: #10375c;
   background-color: #f3c623;
-  background-image: linear-gradient(to right, #10375c, #10375c, #f3c623);
+  background-image: linear-gradient(to right, #10375c 20%, #10375c, #f3c623);
   margin-bottom: 2rem;
   min-height: 8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #10375c !important;
+  font-weight: bold; /* Makes the text bold */
+  font-size: 1.1rem; /* Slightly increases font size */
+  letter-spacing: 0.5px; /* Adds spacing between letters */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f3c623 !important; /* Optional: change color on hover */
+  text-decoration: underline; /* Optional: adds underline on hover */
 }
 
 .name-text {
@@ -57,12 +70,40 @@ h2 {
 }
 
 .hero-section {
+  background: linear-gradient(to right, #10375c 60%, #f3c623 50%);
   display: flex;
   margin-top: -40px;
-  align-items: flex-start;
-  padding: 80px; /* Adjusted padding for size of background*/
+  align-items: center;
+  padding: 50px; /* Adjusted padding for size of background*/
   background-color: #10375c;
   color: white;
+}
+
+.hero-section h1 {
+  font-size: 7rem;
+  color: #f3c623;
+}
+
+.hero-section p {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.hero-section .image-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section .text-container {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.img-fluid.rounded-circle {
+  border: 8px solid #10375c;
+  border-radius: 50%;
 }
 
 .about-me-section {
@@ -117,6 +158,7 @@ h2 {
   margin-top: 10px;
   background-color: #10375c;
   color: white;
+  border: solid;
   border-width: 2px;
   border-color: #f3c623;
   font-family: 'Lobster', cursive; 
