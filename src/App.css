@@ -108,7 +108,7 @@ h2 {
 
 .hero-section .text-container {
   width: 50%;
-  padding: 0 20px;
+  padding: 0 40px; /* Increases left and right padding */
 }
 
 .img-fluid.rounded-circle {
