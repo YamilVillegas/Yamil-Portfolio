@@ -54,14 +54,14 @@ h2 {
 
 .navbar-dark .navbar-nav .nav-link {
   color: #10375c !important;
-  font-weight: bold; /* Makes the text bold */
-  font-size: 1.1rem; /* Slightly increases font size */
-  letter-spacing: 0.5px; /* Adds spacing between letters */
+  font-weight: bold;
+  font-size: 1.1rem; 
+  letter-spacing: 0.5px; 
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: white !important; /* Optional: change color on hover */
-  text-decoration: underline; /* Optional: adds underline on hover */
+  color: white !important; 
+  text-decoration: underline;
 }
 
 .name-text {
