@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHtml5, faCss3Alt, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
 
 const AboutMe = () => {
   return (
@@ -7,7 +9,7 @@ const AboutMe = () => {
       <Container className="mt-5">
         <Row>
           <Col md={8}>
-            <h1 className="mb-4">About Me</h1>
+            <h1 className="about-me-title mb-4">About Me</h1>
             <p>
               Here you will find more information about me, what I do, and my skills mostly in terms of programming and web design.
             </p>
@@ -21,7 +23,12 @@ const AboutMe = () => {
             <Card className="bg-warning text-white">
               <div className="card-body">
                 <h5 className="card-title">Skills</h5>
-                {/* I will add more content here, like a list of skill icons */}
+                <div className="skills-icons">
+                  <FontAwesomeIcon icon={faHtml5} className="icon" />
+                  <FontAwesomeIcon icon={faCss3Alt} className="icon" />
+                  <FontAwesomeIcon icon={faJs} className="icon" />
+                  <FontAwesomeIcon icon={faReact} className="icon" />
+                </div>
               </div>
             </Card>
           </Col>

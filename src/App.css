@@ -120,6 +120,25 @@ h2 {
   padding: 80px;
 }
 
+.about-me-title {
+  /* Copy all styles from .name-text here */
+  font-size: 4rem; /* Example font size */
+  color: #10375c;  /* Example color */
+  font-weight: bold; /* Example weight */
+  /* Add any other styles from .name-text */
+}
+
+.skills-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.skills-icons .icon {
+  font-size: 2rem;
+  color: f3c623;
+}
+
 .card-body {
   background-color: #10375c;
   border-radius: 10px;
@@ -136,6 +155,7 @@ h2 {
 
 .projects-h1 {
   color: #f3c623;
+  font-size: 4rem;
 } 
 
 .project-card {
@@ -144,6 +164,7 @@ h2 {
 
 .contact-form-h3 {
   color: #10375c;
+  font-size: 2rem;
 }
 
 .contact-form {
