@@ -8,7 +8,6 @@ import ContactForm from './components/ContactForm.js';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faHtml5, faCss3Alt, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
 
-// Add icons to the library
 library.add(faHtml5, faCss3Alt, faJs, faReact);
 
 function App() {

@@ -121,11 +121,9 @@ h2 {
 }
 
 .about-me-title {
-  /* Copy all styles from .name-text here */
-  font-size: 4rem; /* Example font size */
-  color: #10375c;  /* Example color */
-  font-weight: bold; /* Example weight */
-  /* Add any other styles from .name-text */
+  font-size: 4rem; 
+  color: #10375c;  
+  font-weight: bold; 
 }
 
 .skills-icons {
