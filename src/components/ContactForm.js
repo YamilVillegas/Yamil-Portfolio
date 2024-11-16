@@ -15,7 +15,7 @@ const ContactForm = () => {
   return (
     <div className="contact-form">
       <h3 className="contact-form-h3">Send me a message!</h3>
-      <p>Got a question, proposal or just want to say hello? Send a message below :)</p>
+      <p className='contact-form-p'>Got a question, proposal or just want to say hello? Send a message below :)</p>
       <Form onSubmit={handleSubmit}>
         <FormGroup>
           <Input type="textarea" value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Your message" />

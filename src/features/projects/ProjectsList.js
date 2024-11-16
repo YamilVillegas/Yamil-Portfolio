@@ -7,7 +7,7 @@ const ProjectsList = () => {
     <div className="project-section">
       <Container>
         <h1 className="projects-h1 text-start">Projects.</h1>
-        <p className="text-start text-white">Here you will find some of the personal and client projects that I have created.</p>
+        <p className="projects-p text-start text-white">Here you will find some of the personal and client projects that I have created.</p>
         <Row>
           {PROJECTS.map((project, index) => (
             <Col xs={6} md={6} key={project.id}>
