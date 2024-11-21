@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import headshot from '../app/assets/img/CodingHeader.png'
+import headshot from '../app/assets/img/PersonalImageBlueYellowBG.png'
 
 const HeroSection = () => {
   return (

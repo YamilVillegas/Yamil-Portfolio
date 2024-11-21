@@ -6,8 +6,8 @@ import { faHtml5, faCss3Alt, faJs, faReact } from '@fortawesome/free-brands-svg-
 const AboutMe = () => {
   return (
     <div className='about-me-section'>
-      <Container className="mt-5">
-        <Row>
+      <Container>
+        <Row className="align-items-start">
           <Col md={8}>
             <h1 className="about-me-title mb-4">About Me</h1>
             <p className='about-me-p'>
@@ -19,15 +19,27 @@ const AboutMe = () => {
             </p>
             <p className='about-me-p'>Let's build something amazing together!</p>
           </Col>
-          <Col md={4}>
-            <Card className="bg-warning text-white">
+          <Col md={4} className="skills-column">
+            <Card className="bg-warning text-white skills-card">
               <div className="card-body">
                 <h5 className="card-title">Skills</h5>
-                <div className="skills-icons">
-                  <FontAwesomeIcon icon={faHtml5} className="icon" />
-                  <FontAwesomeIcon icon={faCss3Alt} className="icon" />
-                  <FontAwesomeIcon icon={faJs} className="icon" />
-                  <FontAwesomeIcon icon={faReact} className="icon" />
+                <div className="skills-list">
+                  <div className="skill-item">
+                    <FontAwesomeIcon icon={faHtml5} className="icon" />
+                    <span className="skill-name">HTML</span>
+                  </div>
+                  <div className="skill-item">
+                    <FontAwesomeIcon icon={faCss3Alt} className="icon" />
+                    <span className="skill-name">CSS</span>
+                  </div>
+                  <div className="skill-item">
+                    <FontAwesomeIcon icon={faJs} className="icon" />
+                    <span className="skill-name">JavaScript</span>
+                  </div>
+                  <div className="skill-item">
+                    <FontAwesomeIcon icon={faReact} className="icon" />
+                    <span className="skill-name">React</span>
+                  </div>
                 </div>
               </div>
             </Card>
