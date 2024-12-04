@@ -51,7 +51,7 @@ h2 {
 .navbar-dark {
   color: #10375c;
   background-color: #f3c623;
-  background-image: linear-gradient(to right, #10375c 60%, #f3c623, #f3c623);
+  background-image: linear-gradient(to right, #10375c 59%, #f3c623, #f3c623);
   margin-bottom: 2rem;
   min-height: 8rem;
 }
@@ -140,7 +140,7 @@ h2 {
 }
 
 .hero-section {
-  background: linear-gradient(to right, #10375c 60%, #f3c623 50%);
+  background-image: linear-gradient(to right, #10375c 59%, #f3c623, #f3c623);
   display: flex;
   margin-top: -40px;
   align-items: center;
@@ -378,10 +378,9 @@ h2 {
 }
 
 .project-card {
+  width: 80%;
+  margin: 5px;
   margin-bottom: 20px;
-}
-
-.project-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
